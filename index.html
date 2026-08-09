@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xenawi | Portfolio</title>
+  <link rel="icon" type="image/png" href="images/logo.PNG">
+  <meta name="description" content="Professional portfolio website for Xenawi showcasing expertise, projects, and contact details." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="nav-bar">
+      <div class="brand">
+        <span class="brand-mark">X</span>
+        <div>
+          <p class="brand-label">Xenawi</p>
+          <p class="brand-subtitle">Software Engineer & Product-Focused Creator</p>
+        </div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Delivering reliable digital products with clarity</p>
+          <h1>Hi, I’m <span>Xenawi</span>. I build backend systems and automation tools with Python.</h1>
+          <p class="hero-copy">Focused on Django, Django REST Framework, automation, and machine learning workflows. Explore my work, skills, and GitHub repositories.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" target="_blank" rel="noreferrer">View Projects</a>
+            <a class="button secondary" href="Zenawi Hadush-CV.pdf" download target="_blank" rel="noreferrer">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="stat-card">
+            <span> GitHub Repos </span>
+            <strong id="repoCount">—</strong>
+          </div>
+          <div class="highlight-panel">
+            <p><strong>Experience</strong> crafting backend APIs, automation tooling, and data workflows.</p>
+            <p><strong>Focus</strong> on Django DRF, Pandas-based ML exploration, and productivity automation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase" id="about">
+        <div class="section-heading">
+          <p class="section-eyebrow">About me</p>
+          <h2>Professional focus with practical impact</h2>
+        </div>
+        <div class="grid-2">
+          <div>
+            <p>I turn complex ideas into usable digital products through clean code, rapid iteration, and thoughtful architecture. My work emphasizes maintainable backend systems and automation that saves time.</p>
+            <ul class="capabilities-list">
+              <li>Backend development with Django, Django REST Framework, and API-first architecture.</li>
+              <li>Beginner machine learning workflows using Pandas, NumPy, Matplotlib, and data exploration.</li>
+              <li>Automation using PyAutoGUI, Gemini API, script-driven productivity, and deployment readiness.</li>
+            </ul>
+          </div>
+          <div class="profile-card">
+            <p><strong>Currently active on GitHub</strong> with repositories showing backend systems, automation, and data workflows.</p>
+            <p><strong>Strengths:</strong> Django API design, Python automation, and data-focused engineering.</p>
+            <a class="link-card" href="https://github.com/Xenawi" target="_blank" rel="noreferrer">Visit my GitHub profile →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="section-heading">
+          <p class="section-eyebrow">Tech Stack & Skills</p>
+          <h2>Tools and technologies I use every day</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Backend & API</h3>
+            <div class="skill-pill">Django</div>
+            <div class="skill-pill">Django REST Framework</div>
+            <div class="skill-pill">PostgreSQL</div>
+            <div class="skill-pill">Docker</div>
+          </div>
+          <div class="skill-group">
+            <h3>Data & ML</h3>
+            <div class="skill-pill">Pandas</div>
+            <div class="skill-pill">NumPy</div>
+            <div class="skill-pill">Matplotlib</div>
+            <div class="skill-pill">scikit-learn</div>
+          </div>
+          <div class="skill-group">
+            <h3>Automation</h3>
+            <div class="skill-pill">PyAutoGUI</div>
+            <div class="skill-pill">Gemini API</div>
+            <div class="skill-pill">Python scripting</div>
+            <div class="skill-pill">Workflow automation</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading">
+          <p class="section-eyebrow">Projects</p>
+          <h2>favourite projects from my GitHub</h2>
+        </div>
+        <div id="projectGrid" class="project-grid">
+          <article class="project-card">
+            <img src="images/visual-ai.jfif" alt="Project preview" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>aug 2024</span>
+              </div>
+              <div>
+                <h3><a href="https://github.com/Xenawi/Screen-Visual-AI-assistant" target="_blank" rel="noreferrer">Screen Visual AI assistant</a></h3>
+                <p>A Windows desktop tool that uses a Gemini Vision+Text model to analyze screenshots and user prompts.</p>
+              </div>
+              <div class="project-skills">
+                <span class="project-skill">PyQt5</span>
+                <span class="project-skill">google-generativeai</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/forex-prediction.png" alt="Project preview" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>aug 2025- may 2026</span>
+              </div>
+              <div>
+                <h3><a href="https://github.com/Xenawi/Forex-predictor" target="_blank" rel="noreferrer">Forex predictor</a></h3>
+                <p>A machine learning model for predicting forex market trends based on historical data and technical indicators.</p>
+              </div>
+              <div class="project-skills">
+                <span class="project-skill">tensorflow</span>
+                <span class="project-skill">pandas</span>
+                <span class="project-skill">numpy</span>
+                <span class="project-skill">scikit-learn</span>
+                <span class="project-skill">MetaTrader5</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/chicken-road.jfif" alt="Project preview" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>jun-jul 2025</span>
+              </div>
+              <div>
+                <h3><a href="https://github.com/Xenawi/Chicken_road_bot" target="_blank" rel="noreferrer">Chicken Road Bot</a></h3>
+                <p>An intelligent game bot built with Python, OpenCV, and a trained AI model (crossing_model.h5) that plays the Chicken Road game automatically — detecting when it's safe to jump, when to cash out, and when to wait.</p>
+              </div>
+              <div class="project-skills">
+                <span class="project-skill">tensorflow</span>
+                <span class="project-skill">mss</span>
+                <span class="project-skill">numpy</span>
+                <span class="project-skill">opencv-python</span>
+                <span class="project-skill">pyautogui</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/XenDev.PNG" alt="Project preview" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python</span>
+                <span>2024</span>
+              </div>
+              <div>
+                <h3><a href="https://github.com/Xenawi/XenDev" target="_blank" rel="noreferrer">XenDev</a></h3>
+                <p>XenDev is a Django-based web application that provides a portfolio and client project management experience with user authentication, admin content management, and staff-only project editing features.</p>
+              </div>
+              <div class="project-skills">
+                <span class="project-skill">Django</span>
+                <span class="project-skill">JavaScript</span>
+                <span class="project-skill">Bootstrap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/visual-ai.jfif" alt="Project preview" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Python, Batch script</span>
+                <span>2024</span>
+              </div>
+              <div>
+                <h3><a href="https://github.com/Xenawi/SEB-cheating-app" target="_blank" rel="noreferrer">SEB Cheating App</a></h3>
+                <p>An intelligent AI-powered GUI application designed to provide real-time visual analysis and answering exams assistance using Google's Gemini Vision API.</p>
+              </div>
+              <div class="project-skills">
+                <span class="project-skill">Python</span>
+                <span class="project-skill">Batch script</span>
+                <span class="project-skill">google-generativeai</span>
+                <span class="project-skill">Pillow</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-heading">
+          <p class="section-eyebrow">Contact</p>
+          <h2>Ready to discuss your next product?</h2>
+        </div>
+        <p>Whether you need backend APIs, automation tooling, or data workflow support, I’m available to collaborate.</p>
+        <div class="contact-grid">
+          <a class="button primary" href="mailto:hello@xenawi.dev" target="_blank" rel="noreferrer">hello@xenawi.dev</a>
+          <a class="button secondary" href="https://t.me/XenawiDemo" target="_blank" rel="noreferrer">Telegram: @XenawiDemo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built with clean design, dark mode support, and GitHub-powered project insights.</p>
+      <p><a href="https://github.com/Xenawi" target="_blank" rel="noreferrer">github.com/Xenawi</a></p>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
