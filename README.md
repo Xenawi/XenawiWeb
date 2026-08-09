@@ -1,15 +1,18 @@
 # 👋 Hi, I'm Xenawi
 
-![Profile Banner](https://media.licdn.com/dms/image/v2/D4E16AQEbpamDSyWayQ/profile-displaybackgroundimage-shrink_350_1400/B4EZoGKrrmK0AY-/0/1761040057893?e=1762992000&v=beta&t=kNXosLsZGY4OY59ByXfgyTV_3u_khkhPalUb_CGUYt4)
+![Profile Banner](https://media.licdn.com/dms/image/v2/D4E16AQEbpamDSyWayQ/profile-displaybackgroundimage-shrink_350_1400/B4EZoGKrrmK0AY-/0/1761040057893?e=1787788800&v=beta&t=ppGOSP-LQ4HvqkU3m6UgZvD57qevSwY0TzXT20cFRS4)
 
-> Passionate Backend Developer | Django Enthusiast | Python Coder  
+> Backend Developer | Django Enthusiast | Python Coder  
 
 ---
 
 ## 🛠 Tech Stack & Skills
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-v4.2-green?logo=django&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=python)
 ![Linux](https://img.shields.io/badge/Linux-Basics-black?logo=linux&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-blueviolet?logo=css3&logoColor=white)
@@ -28,7 +31,7 @@
 
 ## 🔥 GitHub Stats
 
-![Xenawi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Xenawi&show_icons=true&theme=radical)
+![Xenawi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Xenawi&showicons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Xenawi&layout=compact&theme=radical)
 
